@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52222DDE-F0F6-FD28-2A26-06C82B20F986" name="TEAMSKI">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>58F29942-1CB4-8AC4-B9D0-310D77EDC42F</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<abbreviation>TEM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KPC_id_kupac" id="3CA719AE-C024-4A27-FB95-20FB6556BECA">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>6EE61AEF-40EA-DB9F-B446-0BFBFBB253B7</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF869B22-E8BC-76D4-3B27-257BC7380E5D" referredColumn="2299EC37-2C3B-E6A2-8BCC-BADFE23890CD"/>
+</associations>
+</Column>
+<Column name="TEM_tim" id="7A7DDE6F-9B71-40F0-1478-93C2E64674AB">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>00654819-575F-436C-6D4B-970BF377AB3A</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tim_id_tima" id="6E77B676-E49E-FBE7-542E-D4E40847CF42">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>9E09692F-7B68-D866-33F7-8F7BCA8DC694</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6F1F75B-9626-9B61-3082-C0FDACB7B0FB" referredColumn="ED9CF2EA-88E3-4808-7339-8CFCD9DAED5B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7C831E5-EA66-B158-2E26-EE9751BA0DFF" name="TEAMSKI_PK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>808FD6A5-88B9-2CBC-4AB3-84D281E88390</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA719AE-C024-4A27-FB95-20FB6556BECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3D27F19-E59C-D20D-F962-B1D2F88DA255" name="TEAMSKI__IDX">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>47DBFED1-C76D-F9D6-AC40-F8A571F34586</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6E77B676-E49E-FBE7-542E-D4E40847CF42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A192DA3-1AE1-BFF3-769B-D539355045F3" name="TEAMSKI_KUAPC_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>3CD96337-8A16-FB1B-8A1E-EA585766F997</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA719AE-C024-4A27-FB95-20FB6556BECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B852C931-E683-1BFD-8648-8A9686774785" name="TEAMSKI_tim_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>47DBFED1-C76D-F9D6-AC40-F8A571F34586</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E77B676-E49E-FBE7-542E-D4E40847CF42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

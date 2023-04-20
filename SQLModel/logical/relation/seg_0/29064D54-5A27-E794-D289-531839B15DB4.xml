@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_kupac_to_narudzba" directorySegmentName="seg_0" id="29064D54-5A27-E794-D289-531839B15DB4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:31:24 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<sourcePk>808FD6A5-88B9-2CBC-4AB3-84D281E88390</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78C07662-9676-E7E0-859A-B59753A1317F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9598A2F-90DC-1114-00DC-BF480EC5E568</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

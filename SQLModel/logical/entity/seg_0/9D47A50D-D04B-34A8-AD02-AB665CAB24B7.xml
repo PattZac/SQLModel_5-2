@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D47A50D-D04B-34A8-AD02-AB665CAB24B7" name="TIM">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:31:50 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tima" id="FB1D13B9-EBF6-6967-9201-2A2C3B25FBC9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:04 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_tima" id="13D520E0-C6C4-DCDC-0306-55248AE29D3E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:15 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_igraca" id="AE32E242-2CFC-309C-3FA1-72558E5A8F91">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:27 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popust" id="7353CF2A-1387-93CE-2DCE-CC689F5FEA12">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:35 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kupac" id="5CFF2D4B-F569-8770-C090-DBD0A09828ED">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:33:12 UTC</createdTime>
+<generatorID>47DBFED1-C76D-F9D6-AC40-F8A571F34586</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<referedAttribute>6EE61AEF-40EA-DB9F-B446-0BFBFBB253B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3D1A69B-2879-3BD4-CCAB-203697812751" name="TIM PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:05 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB1D13B9-EBF6-6967-9201-2A2C3B25FBC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

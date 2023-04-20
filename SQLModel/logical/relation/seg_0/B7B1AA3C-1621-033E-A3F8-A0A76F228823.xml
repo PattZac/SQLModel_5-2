@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_prodajni_predstavnik_to_kupac" directorySegmentName="seg_0" id="B7B1AA3C-1621-033E-A3F8-A0A76F228823">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:35:10 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<sourcePk>D0545D0B-34BE-528C-D78C-975089640EEE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B199A32-7114-5323-2CBC-7A0110BD6C1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78C07662-9676-E7E0-859A-B59753A1317F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F3B3007-ACC7-031E-4651-00A44AD0FD72" name="ADRESA_PRODAJNI_PREDSTAVNIK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:39:38 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>APP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_adresa_predstavnik" id="D68D789F-8C74-25A3-159A-38FF30D0BECA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:39:50 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="63C54CF6-8CCE-41BF-7754-1699E7B9F0DE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:39:59 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="4A6A93B0-593B-DC48-53D7-8C2EC681B5C0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:40:12 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postanski_broj" id="10B7E5FC-0A5D-7A9C-D8E5-0531DC7F6F86">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:40:21 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grad" id="DE5586EC-51BA-C4F4-2F53-9B1461F815B2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:40:49 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail_prodajni_predstavnik" id="760A9541-DF38-2968-F6EE-A3C95BD05362">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 18:55:49 UTC</createdTime>
+<generatorID>DDD4A4D4-F09D-9D81-396C-D165189B43F2</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<referedAttribute>EA0ECFD0-97D6-AA8B-B326-00C7DD459C09</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B86A07D7-B642-6554-DAA3-BD657B5CF928" name="ADRESA_KUPAC PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:40:47 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D68D789F-8C74-25A3-159A-38FF30D0BECA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

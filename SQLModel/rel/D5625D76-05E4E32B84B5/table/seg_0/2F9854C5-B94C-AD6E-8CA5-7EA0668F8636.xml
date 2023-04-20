@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F9854C5-B94C-AD6E-8CA5-7EA0668F8636" name="SKLADISTE">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>BD15F75E-3E91-1B40-BD19-6E6BEE9CC611</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<abbreviation>SKE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_skladista" id="E6FC9046-349E-0570-DE3D-84365A01EE4A">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>CC9E8FA3-F8D2-03E7-3388-FE68BBAAE699</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="B0460FC7-8511-E20B-4C4C-E14DE7F59BF5">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>B6F3E6C0-8737-1870-66C4-D404F484FAEE</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,6,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF6CCE2D-512D-D801-40AF-3974F29B5ED2" name="SKLADISTE_PK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>88D855C0-72AE-AA30-1C03-216906D3868A</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6FC9046-349E-0570-DE3D-84365A01EE4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

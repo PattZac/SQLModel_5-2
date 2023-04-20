@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_narudzba_to_narudzba_artikl" directorySegmentName="seg_0" id="11CB8DB8-69AC-C0B6-77D6-25C0C3AD0EED">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:39 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<sourcePk>96AB4BE5-8BD9-55CD-C8DD-C33D96787336</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C9598A2F-90DC-1114-00DC-BF480EC5E568</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44C29CBC-15FF-8E82-8B3C-6C901AC90DB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

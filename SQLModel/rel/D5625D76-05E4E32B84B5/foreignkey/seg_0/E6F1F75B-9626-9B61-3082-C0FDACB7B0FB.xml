@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6F1F75B-9626-9B61-3082-C0FDACB7B0FB" containerWithKeyObject="52222DDE-F0F6-FD28-2A26-06C82B20F986" localFKIndex="B852C931-E683-1BFD-8648-8A9686774785" name="TEAMSKI_tim_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>47DBFED1-C76D-F9D6-AC40-F8A571F34586</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<referredTableLongName>TIMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDF36770-853E-A234-EE68-45F065F66923</referredTableID>
+<keyObject>C7EDF9B8-D8C4-30A6-952C-E2A54421F7D4</keyObject>
+<referredKeyID>C7EDF9B8-D8C4-30A6-952C-E2A54421F7D4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tima</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

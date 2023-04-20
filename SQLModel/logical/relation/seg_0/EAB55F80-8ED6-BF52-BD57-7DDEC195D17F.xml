@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_kupac_to_adresa_kupac" directorySegmentName="seg_0" id="EAB55F80-8ED6-BF52-BD57-7DDEC195D17F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:44:23 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<sourcePk>808FD6A5-88B9-2CBC-4AB3-84D281E88390</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78C07662-9676-E7E0-859A-B59753A1317F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D11C98F5-2ABB-9751-D858-8CF4D748C3BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDF36770-853E-A234-EE68-45F065F66923" name="TIMS">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>9D47A50D-D04B-34A8-AD02-AB665CAB24B7</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<ordsAlias>tim</ordsAlias>
+<abbreviation>TIM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tima" id="ED9CF2EA-88E3-4808-7339-8CFCD9DAED5B">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>FB1D13B9-EBF6-6967-9201-2A2C3B25FBC9</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_tima" id="24C5B840-20BB-0EEB-CCBC-F942CA6E607C">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>13D520E0-C6C4-DCDC-0306-55248AE29D3E</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_igraca" id="74FC629D-F7C1-014A-95D3-9ED0BCF63E39">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>AE32E242-2CFC-309C-3FA1-72558E5A8F91</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popust" id="9D1A3CBD-5259-2F0A-1BB8-7AD388D45BF9">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>7353CF2A-1387-93CE-2DCE-CC689F5FEA12</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEAMSKI_KPC_id_kupac" id="DB14317C-CC9C-CB9B-084C-7A7859F09098">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>5CFF2D4B-F569-8770-C090-DBD0A09828ED</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10E0D94D-5CF5-7272-0EBA-6CC0653C01F4" referredColumn="3CA719AE-C024-4A27-FB95-20FB6556BECA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7EDF9B8-D8C4-30A6-952C-E2A54421F7D4" name="tim_PK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>B3D1A69B-2879-3BD4-CCAB-203697812751</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED9CF2EA-88E3-4808-7339-8CFCD9DAED5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E443B05C-1B27-A8DA-CF3F-1A942C30C254" name="tim__IDX">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>47DBFED1-C76D-F9D6-AC40-F8A571F34586</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DB14317C-CC9C-CB9B-084C-7A7859F09098"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9845F6C2-8BEA-C026-B6B7-83145C23BEB1" name="tim_TEAMSKI_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>47DBFED1-C76D-F9D6-AC40-F8A571F34586</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB14317C-CC9C-CB9B-084C-7A7859F09098"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87580418-BEE4-4035-9358-AA7E80645F65" name="PRODAJNI PREDSTAVNIKE">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>2B199A32-7114-5323-2CBC-7A0110BD6C1C</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<ordsAlias>prodajni_predstavnik</ordsAlias>
+<abbreviation>PRP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="e-mail_prodajni_predstavnik" id="35B17595-CD06-45AB-B402-3A5CF9B2DD6B">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>EA0ECFD0-97D6-AA8B-B326-00C7DD459C09</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="E6E02811-8495-339E-48E8-83773E90D304">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>02A1772E-4D1F-CABD-2E50-2B9F6A78022A</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="296FB124-3D67-8BF2-9FD8-A31843B083D3">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>7C2B3DAA-8CC1-37D2-48C8-D072D66BE6D7</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_telefona" id="A9DEC57B-2B6D-6CE3-DD61-D094076D5CA3">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>A6EB2F01-4E89-211E-B501-13B8A18259E9</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODAJNI_PREDSTAVNIK_e-mail_prodajni_predstavnik" id="C7E66BDA-5E93-9376-CF45-E1AD989DE908">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>249D583D-9824-4E7A-CDD6-E1F436792C8B</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D34B16C9-E7C6-8FCD-5AE7-C3B44105E872" referredColumn="35B17595-CD06-45AB-B402-3A5CF9B2DD6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA4E5E95-6CDC-23BD-5266-7DFB65532DD6" name="PRODAJNI_PREDSTAVNIK_PK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>D0545D0B-34BE-528C-D78C-975089640EEE</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B17595-CD06-45AB-B402-3A5CF9B2DD6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FE1B1D0-AFA4-B913-ED1B-4E9E9B1511CB" name="PRODAJNI_PREDSTAVNIK_PRODAJNI_PREDSTAVNIK_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>49088907-AD69-BC2D-4163-68B536CBB5DD</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7E66BDA-5E93-9376-CF45-E1AD989DE908"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

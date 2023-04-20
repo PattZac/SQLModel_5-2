@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="599E6B00-240D-A2F2-9321-7D17A1E09CA1" containerWithKeyObject="3902D484-6CC8-14B0-AB1B-54B267002903" localFKIndex="D5F66F2F-9275-C83E-BD1D-A44ADFBECDD5" name="KARTICA_KUAPC_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>0D9A8072-1F30-7EAC-9F0D-CA2A3BD5E4FD</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<referredTableLongName>KUAPCS</referredTableLongName>
+<arc>628B5465-11AC-6AFE-C845-11CA040AA027</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2EFEC090-2CCA-424F-CCD5-5BDE07B55076</referredTableID>
+<keyObject>8FA3620B-C3E7-76D5-05FE-102171E5D0FB</keyObject>
+<referredKeyID>8FA3620B-C3E7-76D5-05FE-102171E5D0FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KPC_id_kupac</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

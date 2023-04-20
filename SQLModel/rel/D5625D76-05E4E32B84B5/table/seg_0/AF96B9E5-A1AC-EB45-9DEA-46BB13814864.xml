@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF96B9E5-A1AC-EB45-9DEA-46BB13814864" name="NARUDZBA ARTIKLI">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>44C29CBC-15FF-8E82-8B3C-6C901AC90DB4</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<ordsAlias>narudzba_artikl</ordsAlias>
+<abbreviation>NBA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NARUDZBA_id_narudzba" id="E9F54E22-DB34-6FC7-ECF9-173C9F806048">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>95998583-2FF7-13DF-D4CB-B08B6CFE3DF2</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C01E5091-0A1F-4FC3-FE11-5D50E29EE6B4" referredColumn="3A620624-EC42-E4DC-AF6F-6CE25B9B6D8C"/>
+</associations>
+</Column>
+<Column name="ARTIKL_id_artikla" id="66AF7600-C813-19C5-9153-3DD9C7F8FFA6">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>6BE8CD52-0652-2758-A05A-013114B939F7</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B587DBE9-47B2-BC18-B11C-DC9DDC262135" referredColumn="647FD61C-6B41-C254-E8C0-074560DA30F5"/>
+</associations>
+</Column>
+<Column name="broj_narudzbna" id="C2BFBFA2-B1C6-2A7D-4B5D-4191E1F1C7D6">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>55C47A80-B73A-8268-BBA3-3D85C4ED2003</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_odvozen" id="C57129AA-EDBB-405F-E74E-647BABA1026A">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>EE6DB8A4-4BDE-DE38-CA47-D7E2ABF2E0B5</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38F711A7-C20A-697E-3F94-B1486B74F126" name="NARUDZBA_ARTIKL_PK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>274845A2-0BCA-184D-50C5-8CBEFF2ACAE5</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F54E22-DB34-6FC7-ECF9-173C9F806048"/>
+<colUsage columnID="66AF7600-C813-19C5-9153-3DD9C7F8FFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F8A81DC-3F8C-4951-4251-66A34443E6E6" name="NARUDZBA_ARTIKL_ARTIKL_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>7BAFF24E-A4FF-F845-2E5C-569BD13E42A1</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66AF7600-C813-19C5-9153-3DD9C7F8FFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B3104B2-CAA9-CCF6-E2EC-F1329DF310F8" name="NARUDZBA_ARTIKL_NARUDZBA_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>11CB8DB8-69AC-C0B6-77D6-25C0C3AD0EED</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F54E22-DB34-6FC7-ECF9-173C9F806048"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

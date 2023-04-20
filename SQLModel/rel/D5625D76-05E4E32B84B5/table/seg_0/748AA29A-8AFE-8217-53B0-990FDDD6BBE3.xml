@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="748AA29A-8AFE-8217-53B0-990FDDD6BBE3" name="POVIJEST CIJENE">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>35193841-524E-1EAF-5441-A3B7993EA8F9</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<ordsAlias>povijest_cijena</ordsAlias>
+<abbreviation>POC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARTIKL_id_artikla" id="195D9298-C7F6-3B7B-1021-EB18D123F0B8">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>87E5009A-855D-367A-28B0-AF20C19296B7</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A24B645A-47B1-1031-C5B0-EBCA698BBEA4" referredColumn="647FD61C-6B41-C254-E8C0-074560DA30F5"/>
+</associations>
+</Column>
+<Column name="datum_promjene" id="C3811183-74B0-7AE7-F70F-2C86C1F0C5BA">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>849AA0B4-EC95-912D-3945-6AE5F4170B66</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijeme_promjene" id="15057D64-8FC3-9EB6-86B1-0019E63F7BEC">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>7DFD4EC9-7DAF-3C07-3B59-40B45C39C9C1</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cijena" id="3A54FBE0-2A5C-0089-0478-9D156E50C6BC">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>9CD0DD7D-ED95-C413-B0E8-8BFCE4F9D7BE</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55419F4C-A323-1ACF-D60A-D222A7AB9900" name="POVIJEST_CIJENA_PK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>1A9AF465-5E1E-106F-9F11-3E6D743F23E3</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="195D9298-C7F6-3B7B-1021-EB18D123F0B8"/>
+<colUsage columnID="15057D64-8FC3-9EB6-86B1-0019E63F7BEC"/>
+<colUsage columnID="C3811183-74B0-7AE7-F70F-2C86C1F0C5BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6CBB3FD-F49B-D6C9-9439-2186CE19A7C8" name="POVIJEST_CIJENA_ARTIKL_FK">
+<createdBy>unkno</createdBy>
+<createdTime>2023-02-15 19:25:44 UTC</createdTime>
+<generatorID>41B99671-FCAC-3043-0FDC-3DD705854D4F</generatorID>
+<ownerDesignName>SQLModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="195D9298-C7F6-3B7B-1021-EB18D123F0B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

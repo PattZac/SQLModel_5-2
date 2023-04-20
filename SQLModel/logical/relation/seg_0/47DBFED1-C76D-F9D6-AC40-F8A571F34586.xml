@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_tim_to_teamski" directorySegmentName="seg_0" id="47DBFED1-C76D-F9D6-AC40-F8A571F34586">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:33:04 UTC</createdTime>
+<ownerDesignName>SQLModel</ownerDesignName>
+<engineerTo>
+<item key="D5625D76-5331-88E8-7A1A-05E4E32B84B5" value="true"/>
+</engineerTo>
+<sourcePk>B3D1A69B-2879-3BD4-CCAB-203697812751</sourcePk>
+<targetPk>808FD6A5-88B9-2CBC-4AB3-84D281E88390</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D47A50D-D04B-34A8-AD02-AB665CAB24B7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>58F29942-1CB4-8AC4-B9D0-310D77EDC42F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
